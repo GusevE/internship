@@ -1,0 +1,157 @@
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  direction: column;
+  background: linear-gradient(225deg, #bd7ae3 0%, #8461c9 100%);
+}
+
+.box__item {
+  width: 250px;
+  height: 48px;
+  margin-left: 60px;
+  border: 2px solid #808080;
+  background: #6979f8;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.link__title {
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+.link__item {
+  margin-left: 60px;
+}
+.chek {
+  margin-top: 50px;
+  padding-left: 70px;
+}
+
+.box {
+  padding-left: 15px;
+}
+
+.box__title {
+  font-size: 30px;
+  margin-left: 60px;
+}
+.link__title {
+  margin-left: 65px;
+  font-size: 30px;
+}
+.radio__title {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.chek__title {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.chek__container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+
+.chek__box {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.chek__box:hover ~ .checkmark {
+  background-color: #ccc;
+}
+
+.chek__box:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.chek__box:checked ~ .checkmark:after {
+  display: block;
+}
+
+.chek__container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.radio {
+  margin-top: 50px;
+  padding-left: 70px;
+}
+.radio__container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+.radio__box {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.radiokmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 15px;
+  background-color: #eee;
+}
+.radio__box:hover ~ .radiokmark {
+  background-color: #ccc678;
+}
+.radio__box:checked ~ .radiokmark {
+  border: 2px solid #333;
+  background-color: #2196f3;
+}
+a {
+  margin-bottom: 20px;
+  border: 2px solid #333;
+  display: inline-block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  border: 1px solid #333;
+  color: white;
+}
+img {
+  margin-left: 950px;
+  width: 250px;
+  height: 130px;
+}
