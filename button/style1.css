@@ -13,15 +13,19 @@
   background: #6979f8;
   border-radius: 6px;
   cursor: pointer;
+  outline: none;
 }
 
 .link__title {
   margin-left: 60px;
   margin-bottom: 30px;
+  outline: none;
 }
 
 .link__item {
   margin-left: 60px;
+  outline: none;
+  outline: none;
 }
 .chek {
   margin-top: 50px;
@@ -35,18 +39,22 @@
 .box__title {
   font-size: 30px;
   margin-left: 60px;
+  outline: none;
 }
 .link__title {
   margin-left: 65px;
   font-size: 30px;
+  outline: none;
 }
 .radio__title {
   margin-bottom: 30px;
   font-size: 30px;
+  outline: none;
 }
 .chek__title {
   margin-bottom: 30px;
   font-size: 30px;
+  outline: none;
 }
 .checkmark {
   position: absolute;
@@ -55,6 +63,7 @@
   height: 25px;
   width: 25px;
   background-color: #eee;
+  outline: none;
 }
 .chek__container {
   display: block;
@@ -72,6 +81,7 @@
   cursor: pointer;
   height: 0;
   width: 0;
+  outline: none;
 }
 .chek__box:hover ~ .checkmark {
   background-color: #ccc;
@@ -121,6 +131,7 @@
   cursor: pointer;
   height: 0;
   width: 0;
+  outline: none;
 }
 .radiokmark {
   position: absolute;
