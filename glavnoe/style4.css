@@ -5,6 +5,7 @@
   grid-area: hd;
   display: flex;
   align-items: flex-end;
+  margin-top: 108px;
 }
 .box {
   grid-area: sd;
@@ -19,8 +20,7 @@
   margin: 0 auto;
   color: white;
   display: grid;
-  grid-template-rows: 108px max-content;
-  grid-template-columns: auto auto;
+  grid-template-rows: max-content max-content;
   grid-template-areas:
     "hd hd hd hd   hd   hd   hd   hd   "
     "sd sd sd sd   main main main main";
