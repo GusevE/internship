@@ -462,11 +462,14 @@ h1 {
 }
 /*footer*/
 .footer {
+  z-index: 2;
+  left: 3;
+  bottom: 0;
+  position: fixed;
   height: 435px;
   margin-top: 125px;
   display: flex;
   font-family: Lato;
-  flex: 0 0 auto;
 }
 .address {
   padding-top: 85px;
