@@ -12,6 +12,7 @@
       <a class="nav__item" href="/glavnoe/index5.html">Verstka</a>
       <a class="nav__item" href="/semantika/text.html"> Sematika</a>
       <a class="nav__item" href="/One/index.html"> First task</a>
+      <a class="nav__item" href="/lending/index.html"> Lending</a>
     </div>
   </body>
 </html>
