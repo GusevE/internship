@@ -1,16 +1,17 @@
-.html {
+html {
   height: 100%;
 }
+
+.main-content {
+  flex: 1 0 auto;
+}
 body {
-  min-height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.main {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
+
 .container {
   max-width: 1440px;
   height: 782px;
@@ -30,29 +31,33 @@ body {
   justify-content: space-between;
 }
 .header__logo {
+  outline: none;
   font-family: Lato;
-  padding-top: 45px;
+  padding-top: 60px;
   margin-left: 165px;
 }
 
-li {
-  list-style-image: url(Logo.svg);
+.header__text {
+  outline: none;
+  margin-left: 10px;
   font-size: 18px;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
 }
 /*NAV*/
-
+.nav {
+  padding-top: 63px;
+}
 .nav__bar {
   font-family: Lato;
   display: inline-block;
-  padding-top: 58px;
   align-items: center;
   text-transform: uppercase;
   color: #ffffff;
   margin-left: 17px;
   font-size: 14px;
+  outline: none;
 }
 /*button*/
 .sing {
@@ -72,6 +77,7 @@ li {
   font-family: Lato;
   background-color: transparent;
   color: #ffffff;
+  outline: none;
 }
 
 .sing__select select {
@@ -80,6 +86,7 @@ li {
   margin-top: 60px;
   margin-right: 10px;
   color: #ffffff;
+  outline: none;
 }
 .img {
   margin-top: 80px;
@@ -88,6 +95,7 @@ li {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 52px;
+  outline: none;
 }
 /*content*/
 .content {
@@ -101,8 +109,8 @@ h1 {
   line-height: 86px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-
   color: #ffffff;
+  outline: none;
 }
 .info__text {
   width: 540px;
@@ -124,14 +132,17 @@ h1 {
   height: 50px;
   background: #ffffff;
   border-radius: 6px;
+  outline: none;
 }
 /*section*/
 .section {
   width: 1440px;
-  height: 500px;
+  height: 100%;
+  margin-bottom: 110px;
   background: #ffffff;
   display: flex;
   justify-content: space-around;
+  outline: none;
 }
 .section__head {
   width: 445px;
@@ -142,6 +153,7 @@ h1 {
   line-height: 43px;
   margin-left: 140px;
   margin-top: 140px;
+  outline: none;
 }
 .section__text {
   margin-top: 48px;
@@ -151,10 +163,11 @@ h1 {
   font-size: 14px;
   line-height: 140%;
 }
-.section__p {
+.section__description {
   font-family: Lato;
   font-size: 14px;
   color: #ed4c5c;
+  outline: none;
 }
 
 .box {
@@ -173,9 +186,8 @@ h1 {
 /*block*/
 .block {
   width: 1440px;
-  height: 660px;
+  height: 100%;
   background: #fafafa;
-  position: relative;
 }
 .Features {
   margin-top: 63px;
@@ -186,6 +198,7 @@ h1 {
   text-align: center;
   font-family: Lato;
   font-size: 36px;
+  outline: none;
 }
 .support {
   margin-left: 165px;
@@ -196,19 +209,22 @@ h1 {
 .Cloud {
   margin-left: 30px;
 }
-.boxone {
+.block__boxone {
   display: flex;
   font-family: Lato;
-  position: absolute;
+  padding-bottom: 124px;
   margin-left: 110px;
   margin-top: -80px;
 }
 .card {
   width: 293px;
-  height: 198px;
+  height: 100%;
   background: #ffffff;
   border-radius: 8px;
   margin-left: 87px;
+}
+.card a {
+  text-decoration: none;
 }
 .access {
   width: 293px;
@@ -234,6 +250,7 @@ h1 {
   margin-right: 32px;
 }
 .card__text {
+  width: 100%;
   font-size: 12px;
   line-height: 150%;
   font-style: normal;
@@ -242,7 +259,9 @@ h1 {
   margin-top: 20px;
   color: #101010;
 }
+
 .read {
+  margin-bottom: 25px;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -251,6 +270,7 @@ h1 {
   margin-top: 20px;
   text-align: center;
 }
+
 /*boxtwo*/
 .boxtwo {
   margin-top: 52px;
@@ -260,13 +280,20 @@ h1 {
 
 .item {
   width: 255px;
-  height: 226px;
+  height: 100%;
   text-align: center;
   margin-left: 45px;
 }
+.technology__text {
+  padding-top: 63px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 36px;
+}
 .technology {
   width: 1440px;
-  height: 500px;
+  height: 100%;
+
   background: #ffffff;
   font-family: Lato;
 }
@@ -291,14 +318,14 @@ h1 {
   margin-right: 40px;
   color: #101010;
 }
-.item__p {
+.item__description {
   width: 191px;
-  height: 51px;
+  height: 100%;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
-
+  padding-bottom: 110px;
   margin-top: 10px;
 }
 .item__img {
@@ -310,7 +337,7 @@ h1 {
   display: flex;
   font-family: Lato;
   width: 1440px;
-  height: 500px;
+  height: 100%;
   background: #ed4c5c;
 }
 .stay {
@@ -326,10 +353,10 @@ h1 {
   font-size: 36px;
   line-height: 43px;
 }
-.stay__p {
+.stay__description {
   margin-top: 24px;
   width: 445px;
-  height: 64px;
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -337,15 +364,18 @@ h1 {
 }
 .stay__img {
   display: inline;
+  vertical-align: middle;
 }
 .stay__img:not(:first-child) {
   margin-left: 28px;
 }
 .stay__icon {
+  margin-bottom: 113px;
   margin-top: 40px;
 }
 .video {
   margin-top: 94px;
+  margin-bottom: 95px;
   margin-left: 81px;
   width: 533px;
   height: 311px;
@@ -368,7 +398,7 @@ h1 {
 /*contact*/
 .contact {
   width: 1440px;
-
+  height: 500px;
   background: #ffffff;
   font-family: Lato;
 }
@@ -420,6 +450,8 @@ h1 {
   margin-right: 22px;
 }
 ::placeholder {
+  font-size: 16px;
+  line-height: 19px;
   text-indent: 31px;
   color: rgba(19, 39, 67, 0.5);
 }
@@ -441,6 +473,7 @@ h1 {
 }
 .resalt__button {
   margin-top: 27px;
+
   width: 160px;
   height: 50px;
   background: #ed4c5c;
@@ -462,14 +495,15 @@ h1 {
 }
 /*footer*/
 .footer {
-  z-index: 2;
-  left: 3;
+  flex: 0 0 auto;
   bottom: 0;
-  position: fixed;
   height: 435px;
-  margin-top: 125px;
+
   display: flex;
   font-family: Lato;
+}
+.footer a {
+  text-decoration: none;
 }
 .address {
   padding-top: 85px;
@@ -495,7 +529,7 @@ h1 {
   color: #101010;
 }
 
-.address__p {
+.address__description {
   margin-top: 141px;
   margin-bottom: 86px;
   font-style: normal;
@@ -505,16 +539,20 @@ h1 {
 }
 
 .address__text li {
+  list-style-type: none;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 160%;
-  text-transform: capitalize;
-  color: #000000;
+
+  color: black;
 }
 .address__text ul {
   padding: 0;
   margin-top: -5px;
+}
+.address__text a {
+  color: black;
 }
 .Services {
   margin-left: 30px;
@@ -530,7 +568,7 @@ h1 {
 }
 .address__phone {
   margin-top: 11px;
-  ont-style: normal;
+  font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
@@ -546,4 +584,10 @@ h1 {
 .Support {
   margin-top: 85px;
   margin-left: 178px;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
 }
