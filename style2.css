@@ -1,20 +1,29 @@
 body {
-  max-width: 1200px;
+  font-family: "Josefin Sans", sans-serif;
   margin: 0 auto;
   background: #150433;
 }
 .nav {
+  display: flex;
+  justify-content: center;
+
   font-size: 50px;
 }
-.nav__title {
-  margin-left: 300px;
+.title {
+  margin-top: 30px;
+  font-size: 50px;
+  text-align: center;
   color: white;
   margin-bottom: 30px;
 }
 .nav__item {
-  margin: 20px 50px 30px 50px;
-  color: white;
+  margin-left: 40px;
 }
 a {
+  color: #8b008b;
   text-decoration: none;
+}
+.nav a {
+  transition-duration: 2s;
+  font-size: 40px;
 }

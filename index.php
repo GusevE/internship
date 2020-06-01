@@ -4,15 +4,17 @@
     <title>Задание 2</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link href="style2.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="nav">
-      <div class="nav__title">Menu</div>
-      <a class="nav__item" href="/button/check.html"> Checkbox</a>
-      <a class="nav__item" href="/glavnoe/index5.html">Verstka</a>
-      <a class="nav__item" href="/semantika/text.html"> Sematika</a>
-      <a class="nav__item" href="/One/index.html"> First task</a>
-      <a class="nav__item" href="/lending/index.html"> Lending</a>
+      <div class="title">Menu</div>
+      <div class="nav">
+      <a href="/button/check.html"> <div class="nav__item"> Checkbox</a></div>
+      <a href="/glavnoe/index5.html"> <div class="nav__item"> Verstka</a></div>
+      <a href="/semantika/text.html"> <div class="nav__item"> Sematika</a></div>
+      <a href="/One/index.html"> <div class="nav__item"> First task</a></div>
+      <a href="/lending/index.html"> <div class="nav__item"> Lending</a></div>
+      
     </div>
   </body>
 </html>
