@@ -133,11 +133,16 @@ nav {
   display: flex;
   justify-content: center;
 }
+.button {
+  width: 160px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+}
 .content__button {
   margin-top: 40px;
   margin-bottom: 187px;
-  width: 160px;
-  height: 50px;
   background: #ffffff;
   border-radius: 6px;
   border-width: 0;
@@ -145,7 +150,6 @@ nav {
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
-  cursor: pointer;
 }
 .content__button:hover {
   background: #121212;
@@ -488,22 +492,14 @@ h1 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(ChevronDown.svg) 96% / 3% no-repeat;
+  background: url(pictures/ChevronDown.svg) 96% / 3% no-repeat;
 }
 .resalt__button {
   margin-top: 27px;
-  width: 160px;
-  height: 50px;
   background: #ed4c5c;
   border: 1.5px solid #ed4c5c;
   box-sizing: border-box;
   border-radius: 6px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-
-  text-transform: uppercase;
   color: #ffffff;
 }
 .resalt__button:hover {
@@ -598,6 +594,21 @@ footer {
   margin-top: 85px;
   margin-left: 178px;
 }
+.address__text a:hover {
+  color: blue;
+}
+.address__icon a:hover {
+  padding: 5px;
+  border: 2px solid black;
+  margin: -7px;
+}
+.Touch .address__text:hover {
+  color: blue;
+}
+.Touch .address__phone:hover {
+  color: blue;
+}
+
 input,
 textarea,
 select,
