@@ -27,3 +27,6 @@ a {
   transition-duration: 2s;
   font-size: 40px;
 }
+.nav__item:hover {
+  border-bottom: 2px solid white;
+}
