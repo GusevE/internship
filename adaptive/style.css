@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.box {
+  margin: 0 auto;
+  max-width: 1366px;
+}
+.column {
+  width: calc(50% - 20px);
+  margin: 5px;
+  background: rgba(0, 0, 255, 0.25);
+  float: left;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .column {
+    width: calc(33% - 20px);
+  }
+}
+@media (min-width: 1366px) {
+  .column {
+    width: calc((100% - 20px * 12) / 12);
+  }
+}

@@ -14,7 +14,9 @@
       <a href="/semantika/text.html"> <div class="nav__item"> Sematika</a></div>
       <a href="/One/index.html"> <div class="nav__item"> First task</a></div>
       <a href="/lending/index.html"> <div class="nav__item"> Lending</a></div>
-      <a href="/adaptive_grid/index.html"> <div class="nav__item"> Adaptive Grid</a></div>
+      <a href="/adaptive/index.html"> <div class="nav__item"> Adaptive</a></div>
+      <a href="/adaptive_flex/index.html"> <div class="nav__item">Adaptive_flex</a></div>
+
     </div>
   </body>
 </html>
