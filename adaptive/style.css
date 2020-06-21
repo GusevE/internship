@@ -48,58 +48,105 @@
 .item-eleven {
   background: brown;
 }
-.column-lg-12 {
+
+.column-sm-12,
+.column-sm-7,
+.column-sm-5 {
   width: calc(100%);
 }
+
+.column-sm-3,
+.column-sm-9,
+.column-sm-4 {
+  width: calc((100% - 8px) / 3);
+}
+.column-sm {
+  width: 8.33333333%;
+}
+
+.column-sm-2,
+.column-sm-6,
 .column-sm-11,
+.column-sm-10,
+.column-sm-8,
 .column-sm-1 {
-  width: calc((100% - 6px) / 2);
-}
-.column-sm-3 {
-  width: calc((100% - 6px) / 3);
-}
-.column-sm-2 {
   width: calc((100% - 6px) / 2);
 }
 /*  Media queries*/
 
 @media (min-width: 768px) {
-  .column-lg-12 {
+  .column-md-12 {
     width: 100%;
   }
   .column-md-11 {
-    width: calc((100% * 11 / 12) - 8px);
+    width: calc((100% * 11 / 12) - 2px);
   }
   .column-md-10 {
-    width: calc((100% * 10 / 12) - 5px);
+    width: calc((100% * 10 / 12) - 2px);
   }
   .column-md-9 {
-    width: calc((100% * 9) / 12);
+    width: calc((100% * 9 / 12) - 3px);
   }
   .column-md-8 {
     width: calc((100% * 8) / 12);
   }
   .column-md-7 {
-    width: calc((100% * 7) / 12);
+    width: calc((100% * 7 / 12) - 2px);
   }
   .column-md-6 {
-    width: calc((100% * 6 / 12) - 5px);
+    width: calc((100% * 6 / 12) - 2px);
   }
   .column-md-5 {
-    width: calc((100% * 5 / 12) - 7px);
+    width: calc((100% * 5 / 12) - 4px);
   }
   .column-md-4 {
-    width: calc((100% * 4 / 12) - 4px);
+    width: calc((100% * 4 / 12) - 2px);
   }
   .column-md-3 {
     width: calc((100% * 3 / 12) - 2px);
   }
   .column-md-2 {
-    width: calc((100% * 2 / 12) - 4px);
+    width: calc((100% * 2 / 12) - 2px);
   }
   .column-md-1 {
     width: calc((100% * 1 / 12) - 2px);
   }
 }
 @media (min-width: 1366px) {
+  .column-lg-12 {
+    width: 100%;
+  }
+  .column-lg-11 {
+    width: calc((100% * 11 / 12) - 2px);
+  }
+  .column-lg-10 {
+    width: calc((100% * 10 / 12) - 2px);
+  }
+  .column-lg-9 {
+    width: calc((100% * 9) / 12);
+  }
+  .column-lg-8 {
+    width: calc((100% * 8) / 12);
+  }
+  .column-lg-7 {
+    width: calc((100% * 7 / 12) - 2px);
+  }
+  .column-lg-6 {
+    width: calc((100% * 6 / 12) - 2px);
+  }
+  .column-lg-5 {
+    width: calc((100% * 5 / 12) - 2px);
+  }
+  .column-lg-4 {
+    width: calc((100% * 4 / 12) - 2px);
+  }
+  .column-lg-3 {
+    width: calc((100% * 3 / 12) - 2px);
+  }
+  .column-lg-2 {
+    width: calc((100% * 2 / 12) - 2px);
+  }
+  .column-lg-1 {
+    width: calc((100% * 1 / 12) - 2px);
+  }
 }
